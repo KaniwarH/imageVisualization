@@ -506,7 +506,7 @@ function saveToFile(content, filename) {
 }
 saveToFile(generatedData, 'generatedData');   */
 
-const data = JSON.parse($.ajax({ 'url': "dataSimillarity.json", 'async': false }).responseText);
+const data = JSON.parse($.ajax({ 'url': "generateData.json", 'async': false }).responseText);
 //console.log(data[7])
 
 //console.log(data)
