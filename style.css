@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+#map {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+#filter-button{
+    background-color: rgb(97, 140, 249);
+    border-radius: 8px;
+}
+#all{
+    background-color: rgb(97, 140, 249);
+    border-radius: 8px; 
+}
+
+.filter-bar-header{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+#startYear{
+    border: 1px solid black;
+}
+#endYear{
+    border: 1px solid black;
+}
+.remove-filter-bar-header{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.leaflet-draw-toolbar {
+    display: none;
+}
+#pup{
+    font-size: 12px;
+}
+.leaflet-div-icon {
+    background-color: transparent;
+}
+.filter-fild {
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
