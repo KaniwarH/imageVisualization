@@ -506,7 +506,7 @@ function saveToFile(content, filename) {
 }
 saveToFile(generatedData, 'generatedData');   */
 
-const data = JSON.parse($.ajax({ 'url': "euclidean.json", 'async': false }).responseText);
+const data = JSON.parse($.ajax({ 'url': "simAgg.json", 'async': false }).responseText);
 console.log(data[0])
 
 //console.log(data)
